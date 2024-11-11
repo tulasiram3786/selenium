@@ -1,0 +1,30 @@
++----+---------------------+------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+
+|    | 2024-09-18 18:40:00 |                 10.192.1.70 - - [18/Sep/2024:18:40:00 +0530] "POST /lama/system HTTP/1.1" 200 105 "-" "axios/1.3.4" "-"                  | ubuntu-server |  accesslog  |
++----+---------------------+------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+
+| 0  | 2024-09-18 18:40:00 |               10.192.1.70 - - [18/Sep/2024:18:40:00 +0530] "POST /lama/application HTTP/1.1" 200 105 "-" "axios/1.3.4" "-"               | ubuntu-server |  accesslog  |
+| 1  | 2024-09-18 18:39:51 |        180.179.176.101 - - [18/Sep/2024:18:39:51 +0530] "POST /api/v1/agent-config HTTP/1.1" 200 310 "-" "Go-http-client/1.1" "-"        | ubuntu-server |  accesslog  |
+| 2  | 2024-09-18 18:39:51 |        180.179.176.101 - - [18/Sep/2024:18:39:51 +0530] "POST /api/v1/agent-config HTTP/1.1" 200 308 "-" "Go-http-client/1.1" "-"        | ubuntu-server |  accesslog  |
+| 3  | 2024-09-18 18:39:47 |  10.192.1.70 - - [18/Sep/2024:18:39:47 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 4  | 2024-09-18 18:39:47 | 10.192.1.70 - - [18/Sep/2024:18:39:47 +0530] "GET /pingkey/report/info/ip/10.192.1.66 HTTP/1.1" 200 571 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 5  | 2024-09-18 18:39:47 | 10.192.1.70 - - [18/Sep/2024:18:39:47 +0530] "GET /pingkey/report/info/ip/10.192.1.66 HTTP/1.1" 200 571 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 6  | 2024-09-18 18:39:30 |          10.192.1.2 - - [18/Sep/2024:18:39:30 +0530] "POST /api/v1/agent-config HTTP/1.1" 200 309 "-" "Go-http-client/1.1" "-"           | ubuntu-server |  accesslog  |
+| 7  | 2024-09-18 18:39:30 |          10.192.1.2 - - [18/Sep/2024:18:39:30 +0530] "POST /api/v1/agent-config HTTP/1.1" 200 307 "-" "Go-http-client/1.1" "-"           | ubuntu-server |  accesslog  |
+| 8  | 2024-09-18 18:39:26 |  10.192.1.70 - - [18/Sep/2024:18:39:26 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 9  | 2024-09-18 18:39:26 | 10.192.1.70 - - [18/Sep/2024:18:39:26 +0530] "GET /pingkey/report/info/ip/10.193.2.101 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 10 | 2024-09-18 18:39:26 | 10.192.1.70 - - [18/Sep/2024:18:39:26 +0530] "GET /pingkey/report/info/ip/10.193.2.101 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 11 | 2024-09-18 18:39:20 |               127.0.0.1 - - [18/Sep/2024:18:39:20 +0530] "GET /nginx_status HTTP/1.1" 200 115 "-" "Go-http-client/1.1" "-"               | ubuntu-server |  accesslog  |
+| 12 |        Date         |                                                                   Log                                                                    |   Host Name   | Service Tag |
+| 13 | 2024-09-18 18:40:00 |                 10.192.1.70 - - [18/Sep/2024:18:40:00 +0530] "POST /lama/system HTTP/1.1" 200 105 "-" "axios/1.3.4" "-"                  | ubuntu-server |  accesslog  |
+| 14 | 2024-09-18 18:40:00 |               10.192.1.70 - - [18/Sep/2024:18:40:00 +0530] "POST /lama/application HTTP/1.1" 200 105 "-" "axios/1.3.4" "-"               | ubuntu-server |  accesslog  |
+| 15 | 2024-09-18 18:39:51 |        180.179.176.101 - - [18/Sep/2024:18:39:51 +0530] "POST /api/v1/agent-config HTTP/1.1" 200 310 "-" "Go-http-client/1.1" "-"        | ubuntu-server |  accesslog  |
+| 16 | 2024-09-18 18:39:51 |        180.179.176.101 - - [18/Sep/2024:18:39:51 +0530] "POST /api/v1/agent-config HTTP/1.1" 200 308 "-" "Go-http-client/1.1" "-"        | ubuntu-server |  accesslog  |
+| 17 | 2024-09-18 18:39:47 |  10.192.1.70 - - [18/Sep/2024:18:39:47 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 18 | 2024-09-18 18:39:47 | 10.192.1.70 - - [18/Sep/2024:18:39:47 +0530] "GET /pingkey/report/info/ip/10.192.1.66 HTTP/1.1" 200 571 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 19 | 2024-09-18 18:39:47 | 10.192.1.70 - - [18/Sep/2024:18:39:47 +0530] "GET /pingkey/report/info/ip/10.192.1.66 HTTP/1.1" 200 571 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 20 | 2024-09-18 18:39:30 |          10.192.1.2 - - [18/Sep/2024:18:39:30 +0530] "POST /api/v1/agent-config HTTP/1.1" 200 309 "-" "Go-http-client/1.1" "-"           | ubuntu-server |  accesslog  |
+| 21 | 2024-09-18 18:39:30 |          10.192.1.2 - - [18/Sep/2024:18:39:30 +0530] "POST /api/v1/agent-config HTTP/1.1" 200 307 "-" "Go-http-client/1.1" "-"           | ubuntu-server |  accesslog  |
+| 22 | 2024-09-18 18:39:26 |  10.192.1.70 - - [18/Sep/2024:18:39:26 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 23 | 2024-09-18 18:39:26 | 10.192.1.70 - - [18/Sep/2024:18:39:26 +0530] "GET /pingkey/report/info/ip/10.193.2.101 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 24 | 2024-09-18 18:39:26 | 10.192.1.70 - - [18/Sep/2024:18:39:26 +0530] "GET /pingkey/report/info/ip/10.193.2.101 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 25 | 2024-09-18 18:39:20 |               127.0.0.1 - - [18/Sep/2024:18:39:20 +0530] "GET /nginx_status HTTP/1.1" 200 115 "-" "Go-http-client/1.1" "-"               | ubuntu-server |  accesslog  |
++----+---------------------+------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+

@@ -1,0 +1,8 @@
++---+---------------+-----------+-----------+---------------------------+--------+
+|   |   Host Name   | Tag Name  | File Type |         File Path         | Action |
++---+---------------+-----------+-----------+---------------------------+--------+
+| 0 | ubuntu-server | accesslog |   nginx   | /var/log/nginx/access.log |        |
+| 1 |  ZCS-SERVER   | logpmpzbm |   nginx   |   file/logs/access.log    |        |
+| 2 |  ZCS-SERVER   | logeghszg |   nginx   |   file/logs/access.log    |        |
+| 3 |  ZCS-SERVER   | logbfqyzj |   nginx   |   file/logs/access.log    |        |
++---+---------------+-----------+-----------+---------------------------+--------+

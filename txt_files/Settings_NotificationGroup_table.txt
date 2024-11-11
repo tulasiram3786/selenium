@@ -1,0 +1,11 @@
++---+------------+-------------------------------------------------------------------------------------------------------------------------------+--------------------------------+--+
+|   |            |                                                                                                                               |                                |  |
++---+------------+-------------------------------------------------------------------------------------------------------------------------------+--------------------------------+--+
+| 0 | new_clone  | sample1@gmail.com,sample8@gmail.com,sample7@gmail.com,sample6@gmail.com,sample5@gmail.com,sample4@gmail.com,sample3@gmail.com |           project 2            |  |
+| 1 |    fero    |                                                       hellos@gmail.com                                                        |            email ss            |  |
+| 2 |    demo    |                            amit.kumar@zybisys.com,amit.kumar1@zybisys.com,amit.kumar2@zybisys.com                             |              dmeo              |  |
+| 3 |   sdfsfd   |                                                   tulasiram11.r@zybisys.com                                                   |             sdfsdf             |  |
+| 4 |  testing   |                                                    tulasiram1704@gmail.com                                                    | testing for notification group |  |
+| 5 | testingabc |                                                    tulasiram1704@gmail.com                                                    | testing for notification group |  |
+| 6 |  testcge   |                             tulasiram1704@gmail.com,tulasi4333@gmail.com,tulasiram1111@gmail.com                              | testing for notification group |  |
++---+------------+-------------------------------------------------------------------------------------------------------------------------------+--------------------------------+--+

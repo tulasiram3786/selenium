@@ -1,0 +1,54 @@
++----+------------+--------------------------------------------------------------------+-----------+---------+--+
+|    | Process Id |                            Process name                            |  Memory   | Threads |  |
++----+------------+--------------------------------------------------------------------+-----------+---------+--+
+| 0  |            |                                                                    |           |         |  |
+| 1  |    1328    |                         ServerManager.exe                          | 140.27 MB |   17    |  |
+| 2  |    3268    |                              avp.exe                               | 118.67 MB |   118   |  |
+| 3  |    9556    |                            SearchUI.exe                            | 94.13 MB  |   37    |  |
+| 4  |    4988    |                         newrelic-infra.exe                         | 93.17 MB  |   22    |  |
+| 5  |   14708    |                           powershell.exe                           | 73.04 MB  |   11    |  |
+| 6  |   14856    |                            explorer.exe                            | 68.02 MB  |   43    |  |
+| 7  |    5604    |                           fluent-bit.exe                           | 32.23 MB  |   17    |  |
+| 8  |    8572    |                            WmiPrvSE.exe                            | 31.92 MB  |   10    |  |
+| 9  |    720     |                             lsass.exe                              | 31.41 MB  |    9    |  |
+| 10 |    8360    |                            klnagent.exe                            |  29.5 MB  |   33    |  |
+| 11 |    3288    |                           uamsclient.exe                           | 27.55 MB  |   13    |  |
+| 12 |   11380    |                            InetMgr.exe                             |  26.3 MB  |    4    |  |
+| 13 |    3116    |                         check_mk_agent.exe                         | 24.24 MB  |    8    |  |
+| 14 |    9760    |                              dwm.exe                               | 20.89 MB  |   12    |  |
+| 15 |   13600    |                      ShellExperienceHost.exe                       | 20.67 MB  |   16    |  |
+| 16 |   10312    |                        zoomview-pinkey.exe                         | 17.86 MB  |   10    |  |
+| 17 |   11308    | WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe | 17.34 MB  |   18    |  |
+| 18 |   15424    |                     zoomview-pinkey-infra.exe                      | 16.29 MB  |   13    |  |
+| 19 |   14956    |                             chrome.exe                             | 13.57 MB  |   15    |  |
+| 20 |    3196    |                     newrelic-infra-service.exe                     | 13.31 MB  |    6    |  |
+| 21 |   10532    |                            iexplore.exe                            | 12.79 MB  |   14    |  |
+| 22 |   13580    |                    zoomview-pinkey-apm-iis.exe                     | 12.75 MB  |    6    |  |
+| 23 |   10916    |                            LogonUI.exe                             | 11.86 MB  |    6    |  |
+| 24 |    3240    |                            vmtoolsd.exe                            | 10.28 MB  |    9    |  |
+| 25 |    3236    |                             avpui.exe                              | 10.18 MB  |    9    |  |
+| 26 |   14304    |                          smartscreen.exe                           |  8.96 MB  |    8    |  |
+| 27 |    2976    |                            spoolsv.exe                             |  8.2 MB   |    7    |  |
+| 28 |    5068    |                             avpsus.exe                             |  7.9 MB   |   11    |  |
+| 29 |    712     |                            services.exe                            |  6.55 MB  |    5    |  |
+| 30 |   15192    |                           taskhostw.exe                            |  6.36 MB  |    4    |  |
+| 31 |   12264    |                             sihost.exe                             |  6.11 MB  |    7    |  |
+| 32 |    6612    |                            conhost.exe                             |  5.93 MB  |    3    |  |
+| 33 |    4740    |                             httpd.exe                              |  5.56 MB  |   67    |  |
+| 34 |    3188    |                          wazuh-agent.exe                           |  4.87 MB  |    7    |  |
+| 35 |   14732    |                            svchost.exe                             |  3.76 MB  |    3    |  |
+| 36 |    4968    |                             ctfmon.exe                             |  3.7 MB   |    9    |  |
+| 37 |    8444    |                            dllhost.exe                             |  3.67 MB  |    5    |  |
+| 38 |    3260    |                         VGAuthService.exe                          |  3.29 MB  |    2    |  |
+| 39 |   13892    |                            rdpclip.exe                             |  3.2 MB   |    5    |  |
+| 40 |    4452    |                             msdtc.exe                              |  3.1 MB   |    9    |  |
+| 41 |    9420    |                             csrss.exe                              |  2.72 MB  |   13    |  |
+| 42 |   12924    |                            winlogon.exe                            |  2.55 MB  |    3    |  |
+| 43 |    3204    |                              nssm.exe                              |  2.31 MB  |    1    |  |
+| 44 |    6264    |                          fontdrvhost.exe                           |  1.75 MB  |    5    |  |
+| 45 |    564     |                            wininit.exe                             |  1.7 MB   |    3    |  |
+| 46 |   14324    |                         RuntimeBroker.exe                          |  1.37 MB  |    1    |  |
+| 47 |    384     |                              smss.exe                              |  0.56 MB  |    2    |  |
+| 48 |    104     |                              Registry                              |  0.47 MB  |    4    |  |
+| 49 |     4      |                               System                               |  0.2 MB   |   217   |  |
++----+------------+--------------------------------------------------------------------+-----------+---------+--+

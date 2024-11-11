@@ -1,0 +1,1 @@
+INFO     root:test_Logs_LogPartition.py:188 *************** Test_Tuning verify table_data *********************

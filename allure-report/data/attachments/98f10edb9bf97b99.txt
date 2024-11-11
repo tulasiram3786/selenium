@@ -1,0 +1,3 @@
+INFO     root:test_Forgotpassword.py:28 *************** Test_ForgotPassword *********************
+INFO     root:test_Forgotpassword.py:29 *************** verification of ForgotPassword page title *********************
+INFO     root:test_Forgotpassword.py:39 *************** test_Forgotpassword_title_verification - Title Matched *********************

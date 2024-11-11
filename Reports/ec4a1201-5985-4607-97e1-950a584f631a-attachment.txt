@@ -1,0 +1,3 @@
+INFO     root:test_Dashboard.py:112 *************** Test_Dashboard verify services count *********************
+INFO     root:test_Dashboard.py:113 *************** services count = ok+warn+crit *********************
+INFO     root:test_Dashboard.py:126 *************** Dashboard serives count matched with ok,warn,crit *********************

@@ -1,0 +1,1 @@
+INFO     root:test_Infrastructure_network.py:100 *************** Test_Infrastructure Network Graph child1 *********************

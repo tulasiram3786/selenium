@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_Infrastructure.py:25 *************** Test_Infrastructure *********************
+[32mINFO    [0m root:test_Infrastructure.py:26 *************** verification of Infrastructure page title *********************
+[32mINFO    [0m root:test_Infrastructure.py:46 *************** test_title_verification_for_infrastructure_page - Title Matched *********************

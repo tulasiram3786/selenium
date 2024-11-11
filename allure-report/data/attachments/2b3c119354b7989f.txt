@@ -1,0 +1,6 @@
+Totals services 226
+ok services: 179
+warn services: 6
+crit services: 41
+The sum of ok, warn and crit services: 226
+[92mInfrastructure Services count is succssfully matched with ok,warn,crit[0m

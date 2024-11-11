@@ -1,0 +1,32 @@
+
+Graph displayed : 
+Tx Rate (%)
+Graph displayed : 
+Rx Rate (%)
+Graph displayed : 
+Tx Errors
+Graph displayed : 
+Tx Packets
+Graph displayed : 
+Rx Errors
+Graph displayed : 
+Rx Packets
+Graph displayed : 
+Link Speed
+Graph displayed : 
+Full Duplex
+Graph displayed : 
+Rx Rate Bytes
+Graph displayed : 
+Tx Rate (%)
+Graph displayed : 
+Rx Rate (%)
+Graph displayed : 
+Tx Errors
+Graph displayed : 
+Tx Packets
+Graph displayed : 
+Rx Errors
+Graph displayed : 
+Rx Packets
+Graph displayed : 

@@ -1,0 +1,43 @@
+INFO     root:test_Forgotpassword.py:101 *************** test_forgotpassword_email_invaliddetails started *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: 123@gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page '123@gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: @no-local-part.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page '@no-local-part.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@gmail..com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@gmail..com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@gmail.com.123 *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@gmail.com.123' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram.gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram.gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@ *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasi ram@gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasi ram@gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@ gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@ gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram!@gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram!@gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@gmail@gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@gmail@gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasi<>ram@gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasi<>ram@gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: @gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page '@gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@gmail *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@gmail' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasirdddddddddddffkdddddddddddddddddddddddddddddddddddddddddssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssffffffffhddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddam.r@gmail.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasirdddddddddddffkdddddddddddddddddddddddddddddddddddddddddssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssffffffffhddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddam.r@gmail.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram.r@gmail.commmmmmmmmmmmm *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram.r@gmail.commmmmmmmmmmmm' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram.r@gmail,com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram.r@gmail,com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@192.168.1.81 *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@192.168.1.81' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@gma$il.com *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@gma$il.com' validation text found *********************
+INFO     root:test_Forgotpassword.py:133 *************** Testing Forgotpassword_email: tulasiram@gmailcom *********************
+INFO     root:test_Forgotpassword.py:151 *************** forgotpassword page 'tulasiram@gmailcom' validation text found *********************

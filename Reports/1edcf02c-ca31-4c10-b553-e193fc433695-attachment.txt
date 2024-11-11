@@ -1,0 +1,3 @@
+INFO     root:test_Infrastructure.py:66 *************** Test_Infrastructure verify hosts count *********************
+INFO     root:test_Infrastructure.py:67 *************** hosts count = live+offline+stale *********************
+INFO     root:test_Infrastructure.py:82 *************** Infrastructure hosts count matched with live,offline,stale *********************

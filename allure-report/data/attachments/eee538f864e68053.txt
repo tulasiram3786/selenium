@@ -1,0 +1,3 @@
+INFO     root:test_Dashboard.py:93 *************** Test_Dashboard verify hosts count *********************
+INFO     root:test_Dashboard.py:94 *************** hosts count = live+offline+stale *********************
+INFO     root:test_Dashboard.py:107 *************** Dashboard hosts count matched with live,offline,stale *********************

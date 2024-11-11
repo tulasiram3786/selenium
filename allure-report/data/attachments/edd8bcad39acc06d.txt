@@ -1,0 +1,2 @@
+INFO     root:test_Dashboard.py:148 *************** test_print_dashboard_lamaprod_values print lama prod values *********************
+INFO     root:test_Dashboard.py:149 *************** printing lama prod values *********************

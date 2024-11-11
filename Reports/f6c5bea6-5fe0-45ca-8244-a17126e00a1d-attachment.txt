@@ -1,0 +1,1 @@
+INFO     root:test_Infrastructure_summary.py:26 *************** Test_Infrastructure *********************

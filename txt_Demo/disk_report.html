@@ -1,0 +1,922 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #4CAF50;-->
+<!--            color: white;-->
+<!--        }-->
+<!--        .pass {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--        .fail {-->
+<!--            background-color: #f8d7da;-->
+<!--        }-->
+<!--        .warning {-->
+<!--            background-color: #fff3cd;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>System Report</h1>-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Metrics</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #4CAF50;-->
+<!--            color: white;-->
+<!--        }-->
+<!--        .pass {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--        .fail {-->
+<!--            background-color: #f8d7da;-->
+<!--        }-->
+<!--        .warning {-->
+<!--            background-color: #fff3cd;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>System Report</h1>-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Metrics</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Changed to sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        .pass {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--        .fail {-->
+<!--            background-color: #f8d7da;-->
+<!--        }-->
+<!--        .warning {-->
+<!--            background-color: #fff3cd;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>System Report</h1>-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Metrics</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Zoomview Infrastructure</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        .pass {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--        .fail {-->
+<!--            background-color: #f8d7da;-->
+<!--        }-->
+<!--        .warning {-->
+<!--            background-color: #fff3cd;-->
+<!--        }-->
+<!--        .summary {-->
+<!--            margin-top: 20px;-->
+<!--            font-size: 18px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>Zoomview Infrastructure</h1>-->
+<!--        <p>Instance name: zcsit</p>-->
+<!--        <p>OS type: centos</p>-->
+
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+
+<!--        <div class="summary">-->
+<!--            <p><strong>Pass Percentage:</strong> %</p>-->
+<!--            <p><strong>Fail Percentage:</strong> %</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Zoomview Infrastructure</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        /* Style only the "Status" column in tbody */-->
+<!--        td:nth-child(4) {-->
+<!--            background-color: #f1f1f1;  /* Light gray for the status column */-->
+<!--        }-->
+<!--        .pass td:nth-child(4) {-->
+<!--            background-color: #d4edda; /* Greenish for pass */-->
+<!--        }-->
+<!--        .fail td:nth-child(4) {-->
+<!--            background-color: #f8d7da; /* Reddish for fail */-->
+<!--        }-->
+<!--        .warning td:nth-child(4) {-->
+<!--            background-color: #fff3cd; /* Yellowish for warning */-->
+<!--        }-->
+<!--        .summary {-->
+<!--            margin-top: 20px;-->
+<!--            font-size: 18px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>Zoomview Infrastructure</h1>-->
+<!--        <p>Instance name: zcsit</p>-->
+<!--        <p>OS type: centos</p>-->
+
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+
+<!--        <div class="summary">-->
+<!--            <p><strong>Pass Percentage:</strong> %</p>-->
+<!--            <p><strong>Fail Percentage:</strong> %</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Zoomview Infrastructure</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--            margin-bottom: 30px;  /* Added margin between tables */-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        /* Style only the "Status" column in tbody */-->
+<!--        td:nth-child(4) {-->
+<!--            background-color: #f1f1f1;  /* Light gray for the status column */-->
+<!--        }-->
+<!--        .pass td:nth-child(4) {-->
+<!--            background-color: #d4edda; /* Greenish for pass */-->
+<!--        }-->
+<!--        .fail td:nth-child(4) {-->
+<!--            background-color: #f8d7da; /* Reddish for fail */-->
+<!--        }-->
+<!--        .summary {-->
+<!--            margin-top: 20px;-->
+<!--            font-size: 18px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>Zoomview Infrastructure</h1>-->
+<!--        <p>Instance name: zcsit</p>-->
+<!--        <p>OS type: centos</p>-->
+
+<!--        -->
+<!--        &lt;!&ndash; Start of repeated table block &ndash;&gt;-->
+<!--        <h2>Report Instance 1</h2> &lt;!&ndash; Show instance number &ndash;&gt;-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--        -->
+<!--        &lt;!&ndash; Start of repeated table block &ndash;&gt;-->
+<!--        <h2>Report Instance 2</h2> &lt;!&ndash; Show instance number &ndash;&gt;-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--        -->
+<!--        &lt;!&ndash; Start of repeated table block &ndash;&gt;-->
+<!--        <h2>Report Instance 3</h2> &lt;!&ndash; Show instance number &ndash;&gt;-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--        -->
+
+<!--        <div class="summary">-->
+<!--            <p><strong>Pass Percentage:</strong> %</p>-->
+<!--            <p><strong>Fail Percentage:</strong> %</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Zoomview Infrastructure</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--            margin-bottom: 30px;  /* Added margin between tables */-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        /* Style the "Status" column */-->
+<!--        .status-passed {-->
+<!--            background-color: #d4edda !important; /* Greenish for Passed */-->
+<!--        }-->
+<!--        .status-failed {-->
+<!--            background-color: #f8d7da !important; /* Reddish for Failed */-->
+<!--        }-->
+<!--        .summary {-->
+<!--            margin-top: 20px;-->
+<!--            font-size: 18px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>Zoomview Infrastructure</h1>-->
+<!--        <p>Instance name: zcsit</p>-->
+<!--        <p>OS type: centos</p>-->
+
+<!--        -->
+<!--        &lt;!&ndash; Start of repeated table block &ndash;&gt;-->
+<!--        <h2>Report Instance 1</h2> &lt;!&ndash; Show instance number &ndash;&gt;-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--        -->
+<!--        &lt;!&ndash; Start of repeated table block &ndash;&gt;-->
+<!--        <h2>Report Instance 2</h2> &lt;!&ndash; Show instance number &ndash;&gt;-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--        -->
+<!--        &lt;!&ndash; Start of repeated table block &ndash;&gt;-->
+<!--        <h2>Report Instance 3</h2> &lt;!&ndash; Show instance number &ndash;&gt;-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            -->
+<!--        </table>-->
+<!--        -->
+
+<!--        <div class="summary">-->
+<!--            <p><strong>Pass Percentage:</strong> %</p>-->
+<!--            <p><strong>Fail Percentage:</strong> %</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; text-align: left; padding: 8px; }-->
+<!--        th { background-color: #f2f2f2; }-->
+<!--        .pass { color: green; }-->
+<!--        .fail { color: red; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h2>Windows Server Report :- ZCS-SERVER </h2>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h2>Linux Server Report :- ZCSIT</h2>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h2>Summary</h2>-->
+<!--    <p>Windows Server: % Pass, % Fail</p>-->
+<!--    <p>Linux Server: % Pass, % Fail</p>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .pass { color: green; }-->
+<!--        .fail { color: red; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h3>Linux Server Report: ZCSIT</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h2>Summary</h2>-->
+<!--    <p>Windows Server: % Pass, % Fail</p>-->
+<!--    <p>Linux Server: % Pass, % Fail</p>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .pass { color: green; }-->
+<!--        .fail { color: red; }-->
+<!--        .summary { font-weight: bold; margin-top: 20px; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h3>Linux Server Report: ZCSIT</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h2>Summary</h2>-->
+<!--    <p class="summary">-->
+<!--        Windows Server: % Pass, % Fail                 |-->
+<!--        Linux Server: % Pass, % Fail-->
+<!--    </p>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .passed { background-color: #d4edda; color: green; }  /* Light green background for passed */-->
+<!--        .failed { background-color: #f8d7da; color: red; }    /* Light red background for failed */-->
+<!--        .summary { font-weight: bold; margin-top: 20px; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h3>Linux Server Report: ZCSIT</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h2>Summary</h2>-->
+<!--    <p class="summary">-->
+<!--        Windows Server: % Pass, % Fail                 |-->
+<!--        Linux Server: % Pass, % Fail-->
+<!--    </p>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .passed { background-color: #d4edda; color: green; }  /* Light green background for passed */-->
+<!--        .failed { background-color: #f8d7da; color: red; }    /* Light red background for failed */-->
+<!--        .summary { font-weight: bold; margin-top: 20px; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h3>Summary</h3>-->
+<!--    <p class="summary">-->
+<!--        Total Metrics: 0 |-->
+<!--        Pass Percentage: % |-->
+<!--        Fail Percentage: %-->
+<!--    </p>-->
+
+<!--    <h3>Linux Server Report: ZCSIT</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h3>Summary</h3>-->
+<!--    <p class="summary">-->
+<!--        Total Metrics: 0 |-->
+<!--        Pass Percentage: % |-->
+<!--        Fail Percentage: %-->
+<!--    </p>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Disk Usage Report</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Disk Usage Report</h1>-->
+<!--    <h2>Linux Disk Report</h2>-->
+<!--    <p>Total Metrics: 0</p>-->
+<!--    <table border="1">-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+
+<!--    <h2>Windows Disk Report</h2>-->
+<!--    <p>Total Metrics: 0</p>-->
+<!--    <table border="1">-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>Windows Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        -->
+<!--    </table>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disk Usage Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Disk Usage Report</h1>
+
+    <h2>Windows Server Disk Usage</h2>
+    <table>
+        <tr>
+            <th>Disk Name</th>
+            <th>Used (GB)</th>
+            <th>Free (GB)</th>
+            <th>Total (GB)</th>
+        </tr>
+        
+    </table>
+
+    <h2>Linux Server Disk Usage</h2>
+    <table>
+        <tr>
+            <th>Disk Name</th>
+            <th>Total</th>
+            <th>Used</th>
+            <th>Available</th>
+        </tr>
+        
+        <tr>
+            <td>tmpfs</td>
+            <td>791M</td>
+            <td>1.6M</td>
+            <td>789M</td>
+        </tr>
+        
+        <tr>
+            <td>/dev/mapper/ubuntu--vg-ubuntu--lv</td>
+            <td>39G</td>
+            <td>25G</td>
+            <td>12G</td>
+        </tr>
+        
+        <tr>
+            <td>tmpfs</td>
+            <td>3.9G</td>
+            <td>0</td>
+            <td>3.9G</td>
+        </tr>
+        
+        <tr>
+            <td>tmpfs</td>
+            <td>5.0M</td>
+            <td>0</td>
+            <td>5.0M</td>
+        </tr>
+        
+        <tr>
+            <td>/dev/sda2</td>
+            <td>2.0G</td>
+            <td>252M</td>
+            <td>1.6G</td>
+        </tr>
+        
+        <tr>
+            <td>tmpfs</td>
+            <td>791M</td>
+            <td>4.0K</td>
+            <td>791M</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+INFO     root:test_Settings.py:21 *************** Test_Settings *********************
+INFO     root:test_Settings.py:22 *************** verification of settings page title *********************

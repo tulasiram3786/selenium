@@ -1,0 +1,1 @@
+INFO     root:test_Infrastructure_metrices.py:24 *************** Test_Infrastructure Here printing all list of metrices *********************

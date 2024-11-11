@@ -1,0 +1,54 @@
++----+------------+--------------------------------------------------------------------+----------+---------+--+
+|    | Process Id |                            Process name                            | CPU (%)  | Threads |  |
++----+------------+--------------------------------------------------------------------+----------+---------+--+
+| 0  |            |                                                                    |          |         |  |
+| 1  |    2028    |                     zoomview-pinkey-infra.exe                      | 101.39 % |   13    |  |
+| 2  |    5604    |                           fluent-bit.exe                           |  1.63 %  |   16    |  |
+| 3  |    720     |                             lsass.exe                              |  1.46 %  |    9    |  |
+| 4  |   14828    |                    zoomview-pinkey-apm-iis.exe                     |  0.86 %  |    6    |  |
+| 5  |    4988    |                         newrelic-infra.exe                         |  0.68 %  |   22    |  |
+| 6  |    3116    |                         check_mk_agent.exe                         |  0.54 %  |    9    |  |
+| 7  |     4      |                               System                               |  0.54 %  |   217   |  |
+| 8  |    8360    |                            klnagent.exe                            |  0.49 %  |   34    |  |
+| 9  |    3288    |                           uamsclient.exe                           |  0.14 %  |   13    |  |
+| 10 |    712     |                            services.exe                            |  0.12 %  |    5    |  |
+| 11 |    3240    |                            vmtoolsd.exe                            |  0.08 %  |    9    |  |
+| 12 |    3268    |                              avp.exe                               |  0.08 %  |   118   |  |
+| 13 |   12024    |                            WmiPrvSE.exe                            |  0.03 %  |    8    |  |
+| 14 |   10312    |                        zoomview-pinkey.exe                         |  0.02 %  |   10    |  |
+| 15 |    564     |                            wininit.exe                             |  0.02 %  |    3    |  |
+| 16 |    3188    |                          wazuh-agent.exe                           |  0.02 %  |    7    |  |
+| 17 |   14856    |                            explorer.exe                            |  0.01 %  |   45    |  |
+| 18 |    9420    |                             csrss.exe                              |  0.01 %  |   13    |  |
+| 19 |    1328    |                         ServerManager.exe                          |  0.01 %  |   16    |  |
+| 20 |   12924    |                            winlogon.exe                            |   0 %    |    3    |  |
+| 21 |   15192    |                           taskhostw.exe                            |   0 %    |    4    |  |
+| 22 |   14256    |                            svchost.exe                             |   0 %    |    7    |  |
+| 23 |    2976    |                            spoolsv.exe                             |   0 %    |    7    |  |
+| 24 |    384     |                              smss.exe                              |   0 %    |    2    |  |
+| 25 |   14304    |                          smartscreen.exe                           |   0 %    |    8    |  |
+| 26 |   12264    |                             sihost.exe                             |   0 %    |    7    |  |
+| 27 |   13892    |                            rdpclip.exe                             |   0 %    |    5    |  |
+| 28 |   14708    |                           powershell.exe                           |   0 %    |   11    |  |
+| 29 |    3204    |                              nssm.exe                              |   0 %    |    1    |  |
+| 30 |    3196    |                     newrelic-infra-service.exe                     |   0 %    |    6    |  |
+| 31 |    4452    |                             msdtc.exe                              |   0 %    |    9    |  |
+| 32 |   10532    |                            iexplore.exe                            |   0 %    |   14    |  |
+| 33 |    4740    |                             httpd.exe                              |   0 %    |   67    |  |
+| 34 |    6264    |                          fontdrvhost.exe                           |   0 %    |    5    |  |
+| 35 |    9760    |                              dwm.exe                               |   0 %    |   12    |  |
+| 36 |    8444    |                            dllhost.exe                             |   0 %    |    5    |  |
+| 37 |    4968    |                             ctfmon.exe                             |   0 %    |    9    |  |
+| 38 |    6612    |                            conhost.exe                             |   0 %    |    3    |  |
+| 39 |   13032    |                             chrome.exe                             |   0 %    |    7    |  |
+| 40 |    3236    |                             avpui.exe                              |   0 %    |   10    |  |
+| 41 |    5068    |                             avpsus.exe                             |   0 %    |   11    |  |
+| 42 |   11308    | WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe |   0 %    |   18    |  |
+| 43 |    3260    |                         VGAuthService.exe                          |   0 %    |    2    |  |
+| 44 |   13600    |                      ShellExperienceHost.exe                       |   0 %    |   16    |  |
+| 45 |    9556    |                            SearchUI.exe                            |   0 %    |   37    |  |
+| 46 |   14324    |                         RuntimeBroker.exe                          |   0 %    |    1    |  |
+| 47 |    104     |                              Registry                              |   0 %    |    4    |  |
+| 48 |   10916    |                            LogonUI.exe                             |   0 %    |    6    |  |
+| 49 |   11380    |                            InetMgr.exe                             |   0 %    |    4    |  |
++----+------------+--------------------------------------------------------------------+----------+---------+--+

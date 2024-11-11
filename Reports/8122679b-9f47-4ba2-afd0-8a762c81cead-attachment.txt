@@ -1,0 +1,2 @@
+INFO     root:test_Forgotpassword.py:53 *************** test_forgotpassword_page_validation started *********************
+INFO     root:test_Forgotpassword.py:64 *************** Forgotpassword page verification text found *********************

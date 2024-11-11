@@ -1,0 +1,1132 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #4CAF50;-->
+<!--            color: white;-->
+<!--        }-->
+<!--        .pass {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--        .fail {-->
+<!--            background-color: #f8d7da;-->
+<!--        }-->
+<!--        .warning {-->
+<!--            background-color: #fff3cd;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>System Report</h1>-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Metrics</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            {% for row in table %}-->
+<!--            <tr class="{{ row['status'] }}">-->
+<!--                <td>{{ row['metric'] }}</td>-->
+<!--                <td>{{ row['ssh_value'] }}</td>-->
+<!--                <td>{{ row['api_value'] }}</td>-->
+<!--                <td>{{ row['status'] }}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--        </table>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #4CAF50;-->
+<!--            color: white;-->
+<!--        }-->
+<!--        .pass {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--        .fail {-->
+<!--            background-color: #f8d7da;-->
+<!--        }-->
+<!--        .warning {-->
+<!--            background-color: #fff3cd;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>System Report</h1>-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Metrics</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            {% for row in table %}-->
+<!--            <tr class="{{ row['status'] }}">-->
+<!--                <td>{{ row['metric'] }}</td>-->
+<!--                <td>{{ row['ssh_value'] }}</td>-->
+<!--                <td>{{ row['api_value'] }}</td>-->
+<!--                <td>{{ row['status'] }}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--        </table>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Changed to sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        .pass {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--        .fail {-->
+<!--            background-color: #f8d7da;-->
+<!--        }-->
+<!--        .warning {-->
+<!--            background-color: #fff3cd;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>System Report</h1>-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Metrics</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            {% for row in table %}-->
+<!--            <tr class="{{ row['status'] }}">-->
+<!--                <td>{{ row['metric'] }}</td>-->
+<!--                <td>{{ row['ssh_value'] }}</td>-->
+<!--                <td>{{ row['api_value'] }}</td>-->
+<!--                <td>{{ row['status'] }}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--        </table>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Zoomview Infrastructure</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        .pass {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--        .fail {-->
+<!--            background-color: #f8d7da;-->
+<!--        }-->
+<!--        .warning {-->
+<!--            background-color: #fff3cd;-->
+<!--        }-->
+<!--        .summary {-->
+<!--            margin-top: 20px;-->
+<!--            font-size: 18px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>Zoomview Infrastructure</h1>-->
+<!--        <p>Instance name: zcsit</p>-->
+<!--        <p>OS type: centos</p>-->
+
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            {% for row in table %}-->
+<!--            <tr class="{{ row['status'] }}">-->
+<!--                <td>{{ row['metric'] }}</td>-->
+<!--                <td>{{ row['ssh_value'] }}</td>-->
+<!--                <td>{{ row['api_value'] }}</td>-->
+<!--                <td>{{ row['status'] }}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--        </table>-->
+
+<!--        <div class="summary">-->
+<!--            <p><strong>Pass Percentage:</strong> {{ pass_percentage }}%</p>-->
+<!--            <p><strong>Fail Percentage:</strong> {{ fail_percentage }}%</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Zoomview Infrastructure</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        /* Style only the "Status" column in tbody */-->
+<!--        td:nth-child(4) {-->
+<!--            background-color: #f1f1f1;  /* Light gray for the status column */-->
+<!--        }-->
+<!--        .pass td:nth-child(4) {-->
+<!--            background-color: #d4edda; /* Greenish for pass */-->
+<!--        }-->
+<!--        .fail td:nth-child(4) {-->
+<!--            background-color: #f8d7da; /* Reddish for fail */-->
+<!--        }-->
+<!--        .warning td:nth-child(4) {-->
+<!--            background-color: #fff3cd; /* Yellowish for warning */-->
+<!--        }-->
+<!--        .summary {-->
+<!--            margin-top: 20px;-->
+<!--            font-size: 18px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>Zoomview Infrastructure</h1>-->
+<!--        <p>Instance name: zcsit</p>-->
+<!--        <p>OS type: centos</p>-->
+
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            {% for row in table %}-->
+<!--            <tr class="{{ row['status'] }}">-->
+<!--                <td>{{ row['metric'] }}</td>-->
+<!--                <td>{{ row['ssh_value'] }}</td>-->
+<!--                <td>{{ row['api_value'] }}</td>-->
+<!--                <td>{{ row['status'] }}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--        </table>-->
+
+<!--        <div class="summary">-->
+<!--            <p><strong>Pass Percentage:</strong> {{ pass_percentage }}%</p>-->
+<!--            <p><strong>Fail Percentage:</strong> {{ fail_percentage }}%</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Zoomview Infrastructure</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--            margin-bottom: 30px;  /* Added margin between tables */-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        /* Style only the "Status" column in tbody */-->
+<!--        td:nth-child(4) {-->
+<!--            background-color: #f1f1f1;  /* Light gray for the status column */-->
+<!--        }-->
+<!--        .pass td:nth-child(4) {-->
+<!--            background-color: #d4edda; /* Greenish for pass */-->
+<!--        }-->
+<!--        .fail td:nth-child(4) {-->
+<!--            background-color: #f8d7da; /* Reddish for fail */-->
+<!--        }-->
+<!--        .summary {-->
+<!--            margin-top: 20px;-->
+<!--            font-size: 18px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>Zoomview Infrastructure</h1>-->
+<!--        <p>Instance name: zcsit</p>-->
+<!--        <p>OS type: centos</p>-->
+
+<!--        {% for i in range(3) %}-->
+<!--        &lt;!&ndash; Start of repeated table block &ndash;&gt;-->
+<!--        <h2>Report Instance {{ i + 1 }}</h2> &lt;!&ndash; Show instance number &ndash;&gt;-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            {% for row in table %}-->
+<!--            <tr class="{{ row['status'] }}">-->
+<!--                <td>{{ row['metric'] }}</td>-->
+<!--                <td>{{ row['ssh_value'] }}</td>-->
+<!--                <td>{{ row['api_value'] }}</td>-->
+<!--                <td>{{ row['status'] }}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--        </table>-->
+<!--        {% endfor %}-->
+
+<!--        <div class="summary">-->
+<!--            <p><strong>Pass Percentage:</strong> {{ pass_percentage }}%</p>-->
+<!--            <p><strong>Fail Percentage:</strong> {{ fail_percentage }}%</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Zoomview Infrastructure</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--        }-->
+<!--        .report-container {-->
+<!--            width: 80%;-->
+<!--            margin: 0 auto;-->
+<!--            background-color: white;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 5px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--            margin-bottom: 30px;  /* Added margin between tables */-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        table, th, td {-->
+<!--            border: 1px solid black;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            padding: 10px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #87CEEB;  /* Sky blue */-->
+<!--            color: white;-->
+<!--        }-->
+<!--        /* Style the "Status" column */-->
+<!--        .status-passed {-->
+<!--            background-color: #d4edda !important; /* Greenish for Passed */-->
+<!--        }-->
+<!--        .status-failed {-->
+<!--            background-color: #f8d7da !important; /* Reddish for Failed */-->
+<!--        }-->
+<!--        .summary {-->
+<!--            margin-top: 20px;-->
+<!--            font-size: 18px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="report-container">-->
+<!--        <h1>Zoomview Infrastructure</h1>-->
+<!--        <p>Instance name: zcsit</p>-->
+<!--        <p>OS type: centos</p>-->
+
+<!--        {% for i in range(3) %}-->
+<!--        &lt;!&ndash; Start of repeated table block &ndash;&gt;-->
+<!--        <h2>Report Instance {{ i + 1 }}</h2> &lt;!&ndash; Show instance number &ndash;&gt;-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Memory</th>-->
+<!--                <th>SSH Value</th>-->
+<!--                <th>API Value</th>-->
+<!--                <th>Status</th>-->
+<!--            </tr>-->
+<!--            {% for row in table %}-->
+<!--            <tr>-->
+<!--                <td>{{ row['metric'] }}</td>-->
+<!--                <td>{{ row['ssh_value'] }}</td>-->
+<!--                <td>{{ row['api_value'] }}</td>-->
+<!--                &lt;!&ndash; Assign class based on "passed" or "failed" &ndash;&gt;-->
+<!--                <td class="{{ 'status-passed' if row['status'] == 'passed' else 'status-failed' }}">{{ row['status'] }}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--        </table>-->
+<!--        {% endfor %}-->
+
+<!--        <div class="summary">-->
+<!--            <p><strong>Pass Percentage:</strong> {{ pass_percentage }}%</p>-->
+<!--            <p><strong>Fail Percentage:</strong> {{ fail_percentage }}%</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; text-align: left; padding: 8px; }-->
+<!--        th { background-color: #f2f2f2; }-->
+<!--        .pass { color: green; }-->
+<!--        .fail { color: red; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h2>Windows Server Report :- ZCS-SERVER </h2>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in windows_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{{ row.status }}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h2>Linux Server Report :- ZCSIT</h2>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in linux_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{{ row.status }}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h2>Summary</h2>-->
+<!--    <p>Windows Server: {{ windows_pass_percentage }}% Pass, {{ windows_fail_percentage }}% Fail</p>-->
+<!--    <p>Linux Server: {{ linux_pass_percentage }}% Pass, {{ linux_fail_percentage }}% Fail</p>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .pass { color: green; }-->
+<!--        .fail { color: red; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in windows_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{{ row.status }}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h3>Linux Server Report: ZCSIT</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in linux_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{{ row.status }}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h2>Summary</h2>-->
+<!--    <p>Windows Server: {{ windows_pass_percentage }}% Pass, {{ windows_fail_percentage }}% Fail</p>-->
+<!--    <p>Linux Server: {{ linux_pass_percentage }}% Pass, {{ linux_fail_percentage }}% Fail</p>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .pass { color: green; }-->
+<!--        .fail { color: red; }-->
+<!--        .summary { font-weight: bold; margin-top: 20px; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in windows_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{{ row.status }}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h3>Linux Server Report: ZCSIT</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in linux_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{{ row.status }}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h2>Summary</h2>-->
+<!--    <p class="summary">-->
+<!--        Windows Server: {{ windows_pass_percentage }}% Pass, {{ windows_fail_percentage }}% Fail                 |-->
+<!--        Linux Server: {{ linux_pass_percentage }}% Pass, {{ linux_fail_percentage }}% Fail-->
+<!--    </p>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .passed { background-color: #d4edda; color: green; }  /* Light green background for passed */-->
+<!--        .failed { background-color: #f8d7da; color: red; }    /* Light red background for failed */-->
+<!--        .summary { font-weight: bold; margin-top: 20px; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in windows_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{% if row.status == 'passed' %}passed{% else %}failed{% endif %}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h3>Linux Server Report: ZCSIT</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in linux_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{% if row.status == 'passed' %}passed{% else %}failed{% endif %}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h2>Summary</h2>-->
+<!--    <p class="summary">-->
+<!--        Windows Server: {{ windows_pass_percentage }}% Pass, {{ windows_fail_percentage }}% Fail                 |-->
+<!--        Linux Server: {{ linux_pass_percentage }}% Pass, {{ linux_fail_percentage }}% Fail-->
+<!--    </p>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .passed { background-color: #d4edda; color: green; }  /* Light green background for passed */-->
+<!--        .failed { background-color: #f8d7da; color: red; }    /* Light red background for failed */-->
+<!--        .summary { font-weight: bold; margin-top: 20px; }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in windows_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{% if row.status == 'passed' %}passed{% else %}failed{% endif %}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h3>Summary</h3>-->
+<!--    <p class="summary">-->
+<!--        Total Metrics: {{ windows_table | length }} |-->
+<!--        Pass Percentage: {{ windows_pass_percentage }}% |-->
+<!--        Fail Percentage: {{ windows_fail_percentage }}%-->
+<!--    </p>-->
+
+<!--    <h3>Linux Server Report: ZCSIT</h3>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in linux_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{% if row.status == 'passed' %}passed{% else %}failed{% endif %}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h3>Summary</h3>-->
+<!--    <p class="summary">-->
+<!--        Total Metrics: {{ linux_table | length }} |-->
+<!--        Pass Percentage: {{ linux_pass_percentage }}% |-->
+<!--        Fail Percentage: {{ linux_fail_percentage }}%-->
+<!--    </p>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Disk Usage Report</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Disk Usage Report</h1>-->
+<!--    <h2>Linux Disk Report</h2>-->
+<!--    <p>Total Metrics: {{ linux_table | length }}</p>-->
+<!--    <table border="1">-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in linux_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.Metrics }}</td>-->
+<!--            <td>{{ row['SSH Value'] }}</td>-->
+<!--            <td>{{ row['API Value'] }}</td>-->
+<!--            <td>{{ row.Status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h2>Windows Disk Report</h2>-->
+<!--    <p>Total Metrics: {{ windows_table | length }}</p>-->
+<!--    <table border="1">-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>Windows Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in windows_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.Metrics }}</td>-->
+<!--            <td>{{ row['Windows Value'] }}</td>-->
+<!--            <td>{{ row['API Value'] }}</td>-->
+<!--            <td>{{ row.Status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--good working>-->
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Disk Report</title>-->
+<!--    <style>-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        th, td {-->
+<!--            border: 1px solid #ddd;-->
+<!--            padding: 8px;-->
+<!--            text-align: left;-->
+<!--        }-->
+<!--        th {-->
+<!--            background-color: #f2f2f2;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Disk Report</h1>-->
+<!--    <h2>Linux Disk Usage</h2>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>Linux Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in linux_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row['Metrics'] }}</td>-->
+<!--            <td>{{ row['Linux Value'] }}</td>-->
+<!--            <td>{{ row['API Value'] }}</td>-->
+<!--            <td>{{ row['Status'] }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+<!--    <h2>Windows Disk Usage</h2>-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>Windows Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in windows_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row['Metrics'] }}</td>-->
+<!--            <td>{{ row['Windows Value'] }}</td>-->
+<!--            <td>{{ row['API Value'] }}</td>-->
+<!--            <td>{{ row['Status'] }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disk Report</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: skyblue; /* Sky blue color for header */
+        }
+        .pass {
+            background-color: green; /* Green color for 'pass' status */
+            color: white; /* White text for better contrast */
+        }
+        .fail {
+            background-color: red; /* Red color for 'fail' status */
+            color: white; /* White text for better contrast */
+        }
+        .warning {
+            background-color: orange; /* Optional: orange color for 'pass with warning' status */
+            color: white; /* White text for better contrast */
+        }
+    </style>
+</head>
+<body>
+    <h1>Disk Report</h1>
+    <h2>Linux Disk Usage</h2>
+    <table>
+        <tr>
+            <th>Metrics</th>
+            <th>Linux Value</th>
+            <th>API Value</th>
+            <th>Status</th>
+        </tr>
+        {% for row in linux_table %}
+        <tr>
+            <td>{{ row['Metrics'] }}</td>
+            <td>{{ row['Linux Value'] }}</td>
+            <td>{{ row['API Value'] }}</td>
+            <td class="{{ row['Status'] | lower }}">{{ row['Status'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <h2>Windows Disk Usage</h2>
+    <table>
+        <tr>
+            <th>Metrics</th>
+            <th>Windows Value</th>
+            <th>API Value</th>
+            <th>Status</th>
+        </tr>
+        {% for row in windows_table %}
+        <tr>
+            <td>{{ row['Metrics'] }}</td>
+            <td>{{ row['Windows Value'] }}</td>
+            <td>{{ row['API Value'] }}</td>
+            <td class="{{ row['Status'] | lower }}">{{ row['Status'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>System Report</title>-->
+<!--    <style>-->
+<!--        body { font-family: Arial, sans-serif; margin: 20px; }-->
+<!--        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }-->
+<!--        th, td { border: 1px solid #dddddd; padding: 8px; }-->
+<!--        th { background-color: skyblue; text-align: center; }-->
+<!--        td { text-align: center; }-->
+<!--        .passed { background-color: #d4edda; color: green; }  /* Light green background for passed */-->
+<!--        .failed { background-color: #f8d7da; color: red; }    /* Light red background for failed */-->
+<!--        .summary { font-weight: bold; margin-top: 20px; text-align: right; } /* Align summary to right */-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Zoomview Infrastructure</h1>-->
+
+<!--    <h3>Windows Server Report: ZCS-SERVER (Windows-Microsoft)</h3>-->
+<!--    <p><strong>Date:</strong> {{ windows_fetch_time }}</p>  &lt;!&ndash; Display Windows fetch time &ndash;&gt;-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in windows_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{% if row.status == 'passed' %}passed{% else %}failed{% endif %}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h3>Summary</h3>-->
+<!--    <p class="summary">-->
+<!--        Total Metrics: {{ windows_table | length }} |-->
+<!--        Pass Percentage: {{ windows_pass_percentage }}% |-->
+<!--        Fail Percentage: {{ windows_fail_percentage }}%-->
+<!--    </p>-->
+
+<!--    <h3>Linux Server Report: ZCSIT (Linux-Ubuntu)</h3>-->
+<!--    <p><strong>Date:</strong> {{ linux_fetch_time }}</p>  &lt;!&ndash; Display Linux fetch time &ndash;&gt;-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Metrics</th>-->
+<!--            <th>SSH Value</th>-->
+<!--            <th>API Value</th>-->
+<!--            <th>Status</th>-->
+<!--        </tr>-->
+<!--        {% for row in linux_table %}-->
+<!--        <tr>-->
+<!--            <td>{{ row.metric }}</td>-->
+<!--            <td>{{ row.ssh_value }}</td>-->
+<!--            <td>{{ row.api_value }}</td>-->
+<!--            <td class="{% if row.status == 'passed' %}passed{% else %}failed{% endif %}">{{ row.status }}</td>-->
+<!--        </tr>-->
+<!--        {% endfor %}-->
+<!--    </table>-->
+
+<!--    <h3>Summary</h3>-->
+<!--    <p class="summary">-->
+<!--        Total Metrics: {{ linux_table | length }} |-->
+<!--        Pass Percentage: {{ linux_pass_percentage }}% |-->
+<!--        Fail Percentage: {{ linux_fail_percentage }}%-->
+<!--    </p>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+
+
+
+

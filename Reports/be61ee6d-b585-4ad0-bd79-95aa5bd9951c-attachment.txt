@@ -1,0 +1,1 @@
+INFO     root:test_Logs_LogPartition.py:90 *************** Test_LogPartition Delete table_row *********************

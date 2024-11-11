@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a785469-109f-4487-8b57-65086408dce8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ixizuXF7zEpZReX9LoYXiwjJYA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python tests.pytest for Autosuggestions.Test_auto.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Autosuggestions.Test_auto.test_infrastructure_for_validationofHosts.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Autosuggestions.Test_auto.test_title_verification.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for BootstrapDropdown.Test_Bootstrap_dropdowns.test_bootstrapdropdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for checkboxes_demo.Test_checkboxes.test_checkboxes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for checkboxes_demo.test_checkboxes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_Dashboard.Test_Dashboard.test_dashboard_table.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_Infrastructure.Test_Infrastructure.test_title_verification_for_infrastructure_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_Infrastructure.Test_Infrastructure.test_verify_disk_table_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_Logs.Test_Logs_AllLogs.test_verify_alllogs_tabledata.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_abc.TestSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_abc.TestSearch.test_search_fo_a_valid_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_abc.test_invalid_credientials.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_abc.test_valid_credientials.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_infrastructure_system.Test_Infrastructure_System.test_verify_system.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_programs.test_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_ruf.test_hostname_dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_programs.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_ruf.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_xyz.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_ReverseString (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_palindromornot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AlertsorPopups.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Memory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Memory77.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Network.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Storage_or_Disk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aaaaaaaaaa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.adapters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cpu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.storage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.swap_two_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zcsu016/Desktop/pythonselenium/ZoomView-SaaS/zoomview-ui-automation-testing/txt_Demo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zcsu016\Desktop\pythonselenium\ZoomView-SaaS\zoomview-ui-automation-testing\txt_Demo" />
+      <recent name="C:\Users\zcsu016\Desktop\pythonselenium\ZoomView-SaaS\zoomview-ui-automation-testing" />
+      <recent name="C:\Users\zcsu016\Desktop\pythonselenium\ZoomView-SaaS\zoomview-ui-automation-testing\utilities" />
+      <recent name="C:\Users\zcsu016\Desktop\pythonselenium\ZoomView-SaaS\zoomview-ui-automation-testing\base_pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zcsu016\Desktop\pythonselenium\ZoomView-SaaS\zoomview-ui-automation-testing\txt_files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.2_palindromornot">
+    <configuration name="1_ReverseString" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zoomview-ui-automation-testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/txt_Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txt_Demo/1_ReverseString.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_palindromornot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zoomview-ui-automation-testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/txt_Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txt_Demo/2_palindromornot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for BootstrapDropdown.Test_Bootstrap_dropdowns.test_bootstrapdropdown" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="zoomview-ui-automation-testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/txt_Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;BootstrapDropdown.Test_Bootstrap_dropdowns.test_bootstrapdropdown&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for txt_Demo.test_Autosuggestions.Test_auto" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="zoomview-ui-automation-testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/txt_Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;txt_Demo.test_Autosuggestions.Test_auto&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for txt_Demo.test_Autosuggestions.Test_auto" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="zoomview-ui-automation-testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/txt_Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;txt_Demo.test_Autosuggestions.Test_auto&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for txt_Demo.test_Autosuggestions.Test_auto" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="zoomview-ui-automation-testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/txt_Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;txt_Demo.test_Autosuggestions.Test_auto&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_ruf.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="zoomview-ui-automation-testing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test_ruf.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.2_palindromornot" />
+        <item itemvalue="Python.1_ReverseString" />
+        <item itemvalue="Python tests.pytest for txt_Demo.test_Autosuggestions.Test_auto" />
+        <item itemvalue="Python tests.pytest for txt_Demo.test_Autosuggestions.Test_auto" />
+        <item itemvalue="Python tests.pytest for BootstrapDropdown.Test_Bootstrap_dropdowns.test_bootstrapdropdown" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a785469-109f-4487-8b57-65086408dce8" name="Changes" comment="" />
+      <created>1720438894931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720438894931</updated>
+    </task>
+    <task id="LOCAL-00001" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1727507564207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727507564207</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
+  </component>
+</project>

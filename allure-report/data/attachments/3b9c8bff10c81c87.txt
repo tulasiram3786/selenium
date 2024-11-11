@@ -1,0 +1,2 @@
+INFO     root:test_Dashboard.py:51 *************** Test_Dashboard table *********************
+INFO     root:test_Dashboard.py:52 *************** Table data is printed *********************

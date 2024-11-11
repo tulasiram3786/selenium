@@ -1,0 +1,3 @@
+INFO     root:test_Infrastructure.py:30 *************** Test_Infrastructure *********************
+INFO     root:test_Infrastructure.py:31 *************** verification of Infrastructure page title *********************
+INFO     root:test_Infrastructure.py:53 *************** test_title_verification_for_infrastructure_page - Title Matched *********************

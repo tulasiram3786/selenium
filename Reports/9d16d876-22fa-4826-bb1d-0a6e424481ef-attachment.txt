@@ -1,0 +1,1 @@
+INFO     root:test_Infrastructure_alert.py:24 *************** Test_Infrastructure alert table data *********************

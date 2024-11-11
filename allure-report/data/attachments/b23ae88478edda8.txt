@@ -1,0 +1,2 @@
+INFO     root:test_Forgotpassword.py:76 *************** test_forgotpassword_page_valid_email started *********************
+INFO     root:test_Forgotpassword.py:89 *************** Forgotpassword text found *********************

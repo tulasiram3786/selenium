@@ -1,0 +1,36 @@
++----+---------------------+------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+
+|    | 2024-10-08 11:20:01 |  10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
++----+---------------------+------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+
+| 0  | 2024-10-08 11:20:01 |  10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 1  | 2024-10-08 11:20:01 | 10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "GET /pingkey/report/info/ip/10.192.1.85 HTTP/1.1" 200 613 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 2  | 2024-10-08 11:20:01 | 10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "GET /pingkey/report/info/ip/10.193.6.6 HTTP/1.1" 200 659 "-" "python-requests/2.31.0" "-"  | ubuntu-server |  accesslog  |
+| 3  | 2024-10-08 11:20:01 | 10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "GET /pingkey/report/info/ip/10.192.1.85 HTTP/1.1" 200 613 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 4  | 2024-10-08 11:20:01 | 10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "GET /pingkey/report/info/ip/10.193.6.6 HTTP/1.1" 200 659 "-" "python-requests/2.31.0" "-"  | ubuntu-server |  accesslog  |
+| 5  | 2024-10-08 11:19:44 |  10.192.1.70 - - [08/Oct/2024:11:19:44 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 6  | 2024-10-08 11:19:44 | 10.192.1.70 - - [08/Oct/2024:11:19:44 +0530] "GET /pingkey/report/info/ip/10.192.1.66 HTTP/1.1" 200 571 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 7  | 2024-10-08 11:19:44 | 10.192.1.70 - - [08/Oct/2024:11:19:44 +0530] "GET /pingkey/report/info/ip/10.192.1.66 HTTP/1.1" 200 571 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 8  | 2024-10-08 11:19:34 |  10.192.1.70 - - [08/Oct/2024:11:19:34 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 9  | 2024-10-08 11:19:34 | 10.192.1.70 - - [08/Oct/2024:11:19:34 +0530] "GET /pingkey/report/info/ip/10.193.2.101 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 10 | 2024-10-08 11:19:34 | 10.192.1.70 - - [08/Oct/2024:11:19:34 +0530] "GET /pingkey/report/info/ip/10.193.2.101 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 11 | 2024-10-08 11:19:26 |  10.192.1.70 - - [08/Oct/2024:11:19:26 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 12 | 2024-10-08 11:19:26 | 10.192.1.70 - - [08/Oct/2024:11:19:26 +0530] "GET /pingkey/report/info/ip/192.168.2.12 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 13 | 2024-10-08 11:19:26 | 10.192.1.70 - - [08/Oct/2024:11:19:26 +0530] "GET /pingkey/report/info/ip/192.168.2.12 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 14 | 2024-10-08 11:19:20 |               127.0.0.1 - - [08/Oct/2024:11:19:20 +0530] "GET /nginx_status HTTP/1.1" 200 112 "-" "Go-http-client/1.1" "-"               | ubuntu-server |  accesslog  |
+| 15 |        Date         |                                                                   Log                                                                    |   Host Name   | Service Tag |
+| 16 | 2024-10-08 11:20:01 |  10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 17 | 2024-10-08 11:20:01 |  10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 18 | 2024-10-08 11:20:01 | 10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "GET /pingkey/report/info/ip/10.192.1.85 HTTP/1.1" 200 613 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 19 | 2024-10-08 11:20:01 | 10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "GET /pingkey/report/info/ip/10.193.6.6 HTTP/1.1" 200 659 "-" "python-requests/2.31.0" "-"  | ubuntu-server |  accesslog  |
+| 20 | 2024-10-08 11:20:01 | 10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "GET /pingkey/report/info/ip/10.192.1.85 HTTP/1.1" 200 613 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 21 | 2024-10-08 11:20:01 | 10.192.1.70 - - [08/Oct/2024:11:20:01 +0530] "GET /pingkey/report/info/ip/10.193.6.6 HTTP/1.1" 200 659 "-" "python-requests/2.31.0" "-"  | ubuntu-server |  accesslog  |
+| 22 | 2024-10-08 11:19:44 |  10.192.1.70 - - [08/Oct/2024:11:19:44 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 23 | 2024-10-08 11:19:44 | 10.192.1.70 - - [08/Oct/2024:11:19:44 +0530] "GET /pingkey/report/info/ip/10.192.1.66 HTTP/1.1" 200 571 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 24 | 2024-10-08 11:19:44 | 10.192.1.70 - - [08/Oct/2024:11:19:44 +0530] "GET /pingkey/report/info/ip/10.192.1.66 HTTP/1.1" 200 571 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 25 | 2024-10-08 11:19:34 |  10.192.1.70 - - [08/Oct/2024:11:19:34 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 26 | 2024-10-08 11:19:34 | 10.192.1.70 - - [08/Oct/2024:11:19:34 +0530] "GET /pingkey/report/info/ip/10.193.2.101 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 27 | 2024-10-08 11:19:34 | 10.192.1.70 - - [08/Oct/2024:11:19:34 +0530] "GET /pingkey/report/info/ip/10.193.2.101 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 28 | 2024-10-08 11:19:26 |  10.192.1.70 - - [08/Oct/2024:11:19:26 +0530] "POST /admin-api/vm-assest?update=true HTTP/1.1" 200 55 "-" "python-requests/2.31.0" "-"   | ubuntu-server |  accesslog  |
+| 29 | 2024-10-08 11:19:26 | 10.192.1.70 - - [08/Oct/2024:11:19:26 +0530] "GET /pingkey/report/info/ip/192.168.2.12 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 30 | 2024-10-08 11:19:26 | 10.192.1.70 - - [08/Oct/2024:11:19:26 +0530] "GET /pingkey/report/info/ip/192.168.2.12 HTTP/1.1" 200 56 "-" "python-requests/2.31.0" "-" | ubuntu-server |  accesslog  |
+| 31 | 2024-10-08 11:19:20 |               127.0.0.1 - - [08/Oct/2024:11:19:20 +0530] "GET /nginx_status HTTP/1.1" 200 112 "-" "Go-http-client/1.1" "-"               | ubuntu-server |  accesslog  |
++----+---------------------+------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+

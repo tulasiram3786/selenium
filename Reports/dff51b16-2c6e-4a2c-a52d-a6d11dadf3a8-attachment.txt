@@ -1,0 +1,4 @@
+Lama uat system :- 100%
+Lama uat network :- 100%
+Lama uat application :- 99%
+Lama uat database :- 0%

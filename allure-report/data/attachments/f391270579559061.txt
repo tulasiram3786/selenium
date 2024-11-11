@@ -1,0 +1,6 @@
+Totals hosts 9
+Live hosts: 5
+Offline hosts: 0
+Stale hosts: 4
+The sum of Live, offline and stale hosts: 9
+[92msuccessfully matched[0m

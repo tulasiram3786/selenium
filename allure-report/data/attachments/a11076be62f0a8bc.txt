@@ -1,0 +1,1 @@
+INFO     root:test_Logs_LogPartition.py:61 *************** Test_LogPartition verify table_data *********************

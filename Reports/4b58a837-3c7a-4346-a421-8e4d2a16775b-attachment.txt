@@ -1,0 +1,3 @@
+INFO     root:test_Infrastructure.py:88 *************** Test_Infrastructure verify Services count *********************
+INFO     root:test_Infrastructure.py:89 *************** services count = ok + crit + warn *********************
+INFO     root:test_Infrastructure.py:104 *************** Infrastructure Services count matched with ok, warn, crit *********************

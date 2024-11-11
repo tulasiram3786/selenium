@@ -1,0 +1,3 @@
+INFO     root:test_Dashboard.py:25 *************** Test_Dashboard *********************
+INFO     root:test_Dashboard.py:26 *************** verification of Dashboard page title *********************
+INFO     root:test_Dashboard.py:41 *************** test_title_verification_for_dashboad - Title Matched *********************

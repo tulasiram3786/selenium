@@ -1,0 +1,2 @@
+INFO     root:test_Dashboard.py:129 *************** test_print_dashboard_lama_values print lama uat values *********************
+INFO     root:test_Dashboard.py:130 *************** printing lama uat values *********************
